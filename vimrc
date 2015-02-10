@@ -3,7 +3,7 @@ set nocompatible
 
 filetype off 
 
-set rtp+=~/.vim/bundle/vundle
+set rtp+=~/.vim/bundle/vundle.vim
 call vundle#rc()
 
 Bundle 'gmarik/vundle'
@@ -11,6 +11,8 @@ Bundle 'gmarik/vundle'
 Bundle 'lsdr/monokai'
 
 syntax on
+
+colorscheme monokai
 
 set autoindent
 set ruler
