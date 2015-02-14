@@ -1,20 +1,12 @@
-
 set nocompatible
+filetype off
 
-filetype off 
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 
-set rtp+=~/.vim/bundle/vundle.vim
-call vundle#rc()
+Plugin 'gmarik/Vundle.vim'
 
-Bundle 'gmarik/vundle'
+call vundle#end()
+filetype plugin indent on
 
-Bundle 'lsdr/monokai'
-
-syntax on
-
-colorscheme monokai
-
-set autoindent
-set ruler
-set number
 set tabstop=4
